@@ -92,7 +92,7 @@ ul {
   text-align: center;
   justify-content: flex-end;
   padding-bottom: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .showcase h2, .showcase p {
@@ -100,10 +100,36 @@ ul {
 }
 
 .showcase .btn {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
+/* home cards  */
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  /* align-items: center; */
+}
 
-/* .showcase a {
-  margin-bottom: 20px;
-} */
+.home-cards img {
+  width: 100%;
+  /* height: 100%; */
+  margin-bottom: 20px
+}
+
+.home-cards h3 {
+  margin-bottom: 5px;
+}
+
+.home-cards a {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #0067b8;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.home-cards a:hover i {
+  margin-left: 15px;
+}
