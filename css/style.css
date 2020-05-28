@@ -64,3 +64,18 @@ ul {
 .main-nav ul li a:hover {
   border-bottom: 2px solid #262626;
 }
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #262626;
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
