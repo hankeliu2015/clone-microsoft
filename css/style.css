@@ -44,7 +44,9 @@ ul {
 
 .main-nav {
   display: flex;
+  /* flex-direction: row; */
   align-items: center;
+  justify-content: space-between;
   height: 60px;
   padding: 20px 0;
   font-size: 13px;
@@ -54,12 +56,18 @@ ul {
   display: flex;
 }
 
-.main-nav ul.main-menu {
+ul.main-menu {
   flex: 1;
+  /* display: flex; */
   margin-left: 20px;
 }
 
+/* u.right-menu {
+  flex: 1, 0;
+} */
+
 .main-nav ul li {
+  /* flex: 1; */
   padding: 0 10px;
 }
 
@@ -274,7 +282,7 @@ ul {
   }
 
   .right-menu {
-    margin-left: 55%;
+    margin-right: 50px;
     /* position: relative; */
   }
 
