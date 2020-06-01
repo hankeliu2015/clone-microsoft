@@ -44,7 +44,9 @@ ul {
 
 .main-nav {
   display: flex;
+  /* flex-direction: row; */
   align-items: center;
+  justify-content: space-between;
   height: 60px;
   padding: 20px 0;
   font-size: 13px;
@@ -54,7 +56,7 @@ ul {
   display: flex;
 }
 
-.main-nav ul.main-menu {
+ul.main-menu {
   flex: 1;
   margin-left: 20px;
 }
@@ -274,7 +276,7 @@ ul {
   }
 
   .right-menu {
-    margin-left: 55%;
+    margin-right: 50px;
     /* position: relative; */
   }
 
